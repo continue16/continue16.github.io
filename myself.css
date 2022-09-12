@@ -1,0 +1,20 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(oo.png);
+    height: 100vh;
+    background-size:100% 100%;
+    background-position: center;
+}
+.title{
+    height: 100px;
+    width: 50%;
+    position: absolute;
+background-color: blue;
+
+}
+.title2{
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    background-color: red;
+
+}
