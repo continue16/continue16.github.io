@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+}
+.num{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    top:50%;
+    left:30%;
+    padding: 30px;
+}
+.num2{
+    height: 500px;
+    margin-left: 20%;
+    float: left;
+
+}
+.zero{
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    background-color: white;
+    border-radius :20px;
+    transition: .6s ease;
+    padding: 5px 20px;
+}
