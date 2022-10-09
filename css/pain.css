@@ -1,0 +1,24 @@
+.num{
+     width: 100%;
+    height:100px;
+    text-align: center;
+}
+.sum{
+    background-color: limegreen;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .6s ease;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: yellow;
+}
+.ppp{
+    height: 100px;
+    width: 100%;
+   padding-left: 45%;
+}
