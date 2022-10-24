@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Chap2 Demo Sierpinski Gasket </title>
+  <script id="vertex-shader" type="x-shader/x-vertex">
+	attribute vec4 vPosition;
+	void main(){
+		gl_Position = vPosition;
+	}
+	</script>
+
+  <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+	void main(){
+		gl_FragColor = vec4( 1, 0.0, 0.0, 1.0 );
+	}
+	</script>
+
+  <script type="text/javascript" src="/two.js/webgl-utils.js"></script>
+  <script type="text/javascript" src="/two.js/initShader.js"></script>
+   <script type="text/javascript" src="/two.js/pop.js"></script>
+  <script type="text/javascript" src="/two.js/imp.js"></script>
+</head>
+
+<body  onload=" initTriangles()">
+<canvas id="gl-canvas" width="512" height="512"></canvas>
+<!-- <fieldset>
+egend>层数控制</legend>
+  <select id="controls" size="5">
+      <option value="1" onclick="check()">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+  </select>
+</fieldset>-->
+<input type="text" id="uu">
+<input type="button" onclick="initTriangles()" value="提交">
+<!--<a href="javascript:location.reload();" style="text-decoration: none">点击刷新页面</a>-->
+<input type="button" onclick="location.reload()" value="重置">(重置后进行下次操作)
+</body>
+
+</html>
